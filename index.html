@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="">view</a></li>
+                <li><a href="">create</a></li>
+                <li><a href="">delete</a></li>
+            </ul>
+        </nav>
+        <div id="create">
+            <form action="">
+                <label for="">roll_no:
+                <input type="text" class="roll">
+            </label>
+            <label for="">name:
+                <input type="text" class="name">
+            </label>
+            <label for="">class:
+                <input type="text" class="class">
+            </label>
+            <label for="">location:
+                <input type="text" class="location">
+            </label>
+            <label for="">gender:
+                <input type="text" onclick="click()" class="gender">
+            </label>
+             <button type="button" class="create">create</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        let roll = document.getElementsByClassName('roll')
+        let name = document.getElementsByClassName('name')
+        let cls = document.getElementsByClassName('class')
+        let loc = document.getElementsByClassName('location')
+        const btn = document.querySelector('create')
+    </script>
+</body>
+</html>
